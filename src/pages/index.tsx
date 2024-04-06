@@ -1,6 +1,6 @@
 import { AnimatePresence } from "framer-motion"
 import { Outlet, Route, Routes, useLocation } from "react-router-dom"
-import { Header } from "widgets"
+import { Footer, Header } from "widgets"
 
 import HomePage from "./HomePage/HomePage"
 import PartnersPage from "./PartnersPage/PartnersPage"
@@ -10,10 +10,11 @@ import ServicesPage from "./ServicesPage/ServicesPage"
 
 function BasicLayout() {
 	return (
-		<>
+		<div style={{minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
 			<Header/>
 			<Outlet/>
-		</>
+			<Footer/>
+		</div>
 	)
 }
 
