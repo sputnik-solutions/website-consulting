@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 
 const Header = () => {
 	return (
-		<header>
+		<header className={styles.header}>
 			<Container className={styles.items}>
 				<>
 					<NavLink 
