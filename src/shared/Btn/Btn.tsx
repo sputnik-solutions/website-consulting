@@ -3,10 +3,11 @@ import styles from './Btn.module.scss'
 function Btn(props: {
 	children: React.ReactNode
 	className?: string
+	style?: 'default' | 'black'
 }) {
-	const {children, className} = props
+	const {children, className, style = 'default'} = props
   return (
-	<div className={`${styles.btn} ${className}`}>
+	<div className={`${className} ${styles[style]}` }>
 	  {children}
 	</div>
   )
