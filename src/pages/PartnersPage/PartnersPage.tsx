@@ -33,7 +33,24 @@ const PartnersPage = () => {
 				</div>
 
 				<div className={styles.grid}>
-				
+					<div className={styles.grid__line} style={{left: 'calc(17% - 1px)'}}></div>
+					<div className={styles.grid__line} style={{left: 'calc(39% - 1px)'}}></div>
+					<div className={styles.grid__line} style={{right: 'calc(39% - 1px)'}}></div>
+					<div className={styles.grid__line} style={{right: 'calc(17% - 1px)'}}></div>
+					<div className={styles.grid__items} style={{borderTop: '1px solid black'}}>
+						<div className={styles.grid__item + ' ' + styles.grid__item_left}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+						<div className={styles.grid__item}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+						<div className={styles.grid__item}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+						<div className={styles.grid__item}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+						<div className={styles.grid__item+ ' ' + styles.grid__item_left}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+					</div>
+					<div className={styles.grid__items} style={{borderBottom: '1px solid black'}}>
+						<div className={styles.grid__item + ' ' + styles.grid__item_left}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+						<div className={styles.grid__item}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+						<div className={styles.grid__item}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+						<div className={styles.grid__item}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+						<div className={styles.grid__item + ' ' + styles.grid__item_left}>ЛОГО КОМПАНИИ <br />ПАРТНЕРА</div>
+					</div>
 				</div>
 				<div className={styles.names}>
 					<Container className={styles.names__container}>
