@@ -24,6 +24,7 @@ import icon23 from 'assets/icons/other_pages/icon23.svg'
 import icon24 from 'assets/icons/other_pages/icon24.svg'
 
 const ServicesPage = () => {
+	window.scrollTo(0, 0)
 	return (
 		<motion.div
 			initial={{opacity: 0}}

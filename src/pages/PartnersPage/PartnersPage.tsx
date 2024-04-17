@@ -11,7 +11,11 @@ import pink_right from 'assets/icons/partners_page/pink_right.svg'
 import orange_left from 'assets/icons/partners_page/orange_left.svg'
 import green_right from 'assets/icons/partners_page/green_right.svg'
 
+import icon12 from 'assets/icons/other_pages/icon12.svg'
+import icon22 from 'assets/icons/other_pages/icon22.svg'
+
 const PartnersPage = () => {
+	window.scrollTo(0, 0)
 	return (
 		<motion.div
 			initial={{opacity: 0}}
@@ -33,6 +37,8 @@ const PartnersPage = () => {
 				</div>
 
 				<div className={styles.grid}>
+					<img src={icon12} alt="" className={styles.icon12}/>
+					<img src={icon22} alt="" className={styles.icon22}/>
 					<div className={styles.grid__line} style={{left: 'calc(17% - 1px)'}}></div>
 					<div className={styles.grid__line} style={{left: 'calc(39% - 1px)'}}></div>
 					<div className={styles.grid__line} style={{right: 'calc(39% - 1px)'}}></div>

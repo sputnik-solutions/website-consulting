@@ -18,6 +18,7 @@
 		font-size: 210px;
 		margin-top: 93px;
 		font-weight: 800;
+		position: relative;
 	}
 	&__descr{
 		margin-top: 22px;
@@ -39,6 +40,15 @@
 		position: absolute;
 		right: 0;
 		top: 55px;
+		z-index: -1;
+	}
+	&__square{
+		position: absolute;
+		top: 60px;
+		left: 445px;
+		width: 115px;
+		height: 148px;
+		background-color: #008AFF;
 		z-index: -1;
 	}
 }

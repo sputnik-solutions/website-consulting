@@ -24,6 +24,7 @@ import icon24 from 'assets/icons/other_pages/icon24.svg'
 
 import { Btn, Container } from 'shared'
 const EstatePage = () => {
+	window.scrollTo(0, 0)
 	return (
 		<motion.div
 			initial={{opacity: 0}}

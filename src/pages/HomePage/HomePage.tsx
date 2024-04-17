@@ -23,6 +23,7 @@ import bottom_left from 'assets/icons/home_page/bottom_left.svg'
 import bottom_right from 'assets/icons/home_page/bottom_right.svg'
 
 const HomePage = () => {
+	window.scrollTo(0, 0)
 	const card_info = [
 		{
 			img: card_ph1,

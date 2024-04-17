@@ -13,6 +13,7 @@ import icon23 from 'assets/icons/other_pages/icon23.svg'
 import icon24 from 'assets/icons/other_pages/icon24.svg'
 
 const CareerPage = () => {
+	window.scrollTo(0, 0)
 	return (
 		<motion.div
 			initial={{opacity: 0}}
@@ -25,7 +26,7 @@ const CareerPage = () => {
 					<img src={top_left} alt="" className={styles.cap__left}/>
 					<img src={top_right} alt="" className={styles.cap__right}/>
 
-					<p className={styles.cap__title}>КАРЬЕРА</p>
+					<p className={styles.cap__title}>КАРЬЕРА <div className={styles.cap__square}></div></p>
 					<div className={styles.cap__descr}>Краткое описание сайта. Слоган. То, что может получить пользователь на <br />
 					сайте и к каким разделам может перейти.</div>
 					<Btn className={styles.cap__btn}>КНОПКА для перехода</Btn>
