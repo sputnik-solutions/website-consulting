@@ -1,11 +1,12 @@
 import styles from './DropdowmMenu.module.scss'
 import footer_icon_big from '../../assets/icons/footer_icon_big.svg'
 import footer_icon_small from '../../assets/icons/footer_icon_small.svg'
+import { NavLink } from 'react-router-dom'
 
 function DropdownMenu() {
   return (
 	<div className={styles.menu}>
-		<p className={styles.text}>Пункт 1</p>
+		<NavLink to={"services"} className={styles.text}>Пункт 1</NavLink>
 		<p className={styles.line}></p>
 		<p className={styles.text}>Новый пункт 2</p>
 		<p className={styles.line}></p>
